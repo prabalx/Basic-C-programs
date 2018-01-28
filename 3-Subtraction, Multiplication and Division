@@ -1,0 +1,19 @@
+#include<stdio.h>
+int main()
+{
+/*Most of the programs needed to carry out single operations like subtraction, division or multiplication can be done with replacing the operator*/
+
+    int a, b, operation_name;   /*"operation_name" can be replaced with the operation you are going to carry out*/    /*When carrying out division operation it is more suitable to use float because the division can't always be a whole number*/
+    printf ("Enter any number = ");                                                                                     
+    scanf ("%d",&a);
+    printf ("Enter any number = ");
+    scanf ("%d",&b);                      /*User inputs the numbers/integers and is stored in variables "a" and "b" respectively*/  /*OPTIONAL:: If using float for division replace %d with %f*/
+    
+    /*Operation*/
+    operation_name = a - b;              /*The operation can be replacec with the operation you are trying to carry out*/
+    
+    /*Display Results*/
+    
+    printf ("The result of the operation between %d and %d is %d",a, b, operation_name); /*If you are displaying the result of division replace the third %d with %f*/
+    return 0;
+}
