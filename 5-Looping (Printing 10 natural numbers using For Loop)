@@ -1,0 +1,11 @@
+#include <stdio.h>
+int main()
+{
+    int i; /*The variable i is going to be used for looping*/
+    
+    for(i=1; i<=10; i++)      /*i=1 is the initialization of the loop ; i<=10 is the limit or the point upto which the loop should run; And i++ is the increment*/
+        {
+        printf ("%d\n",i);
+        }
+    return 0;
+}
