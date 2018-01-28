@@ -1,0 +1,25 @@
+#include <stdio.h>
+
+int main ()
+{
+	int a, b, c;                    /*Declaring the integers*/
+	printf("Enter any number = ");  /*Enter the integers from the user*/
+	scanf("%d",&a);
+	printf("Enter any number = ");
+	scanf("%d",&b);
+	printf("Enter any number = ");
+	scanf("%d",&c);
+	if(a>b && a>c)                  /*Check the first condition i.e. if a is greater than both b and c*/
+	{
+		printf("\n%d is the greatest", a);
+	}                                /*If the first condition isn't fullfilled then it moves on to the second condition*/
+	else if (b>a && b>c)             /*As done above this line checks if b is greater than both of the numbers a and c or not*/
+	{
+		printf ("\n%d is the greatest", b);
+	}
+	else                             /*Since all of the conditions above weren't fullfilled else statement is carried out*/
+	{
+		printf ("\n%d is the greatest",c);  		
+	}
+	return 0;
+}
