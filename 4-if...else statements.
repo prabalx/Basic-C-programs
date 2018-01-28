@@ -1,0 +1,27 @@
+#include <stdio.h>
+int main()
+{
+    int main a, b, c;
+    printf ("Enter any number = ");
+    scanf ("%d",&a);
+    printf ("Enter any number = ");
+    scanf ("%d",&b);            
+    
+    /*Upto this point everything is pretty easy to understand*/
+    /*From here the first condition checks wheather the condition a>b is true or not, if it is the statement is executed otherwise it goes to the next statement and checks the condition. If non of the conditions as met then the else statement is executed because that is the only statement remaining*/
+    
+    if(a>b && a>c) /*Condition which checks is the number stored in the variable "a" is greater than "b" AND "c" */
+    {
+      printf("The Greatest number is %d",a);
+    }
+    else if (b>a && b>c) /*Condition 2:: similar to the abover condition*/
+    {
+      printf("The Greatest number is %d",b);
+    }
+    else /*If none of the above conditions are fullfilled then the program will execute the statement inside this condition*/
+    {
+      printf("The Greatest number is %d",c);
+    }
+    return 0;
+
+}
