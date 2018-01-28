@@ -1,0 +1,7 @@
+#include <stdio.h>
+int main()
+{
+
+printf ("Hello World");   /*The message/text written inside the double quote is displayed by the program to the user*/
+
+}
